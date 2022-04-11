@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import {Route ,Routes} from 'react-router-dom'
-
+import {Route ,Routes ,Navigate} from 'react-router-dom'
+import img from './component/assets/pokeball.png'
 import Home from './component/home';
 import About from './component/about'
 import Contact from "./component/contact";
@@ -17,6 +17,7 @@ class App extends Component{
           <Route path='about' element={<About/>} />
           <Route path='contact' element={<Contact/>} />
           <Route path=':post_id'  element={<Post/>}/>
+          <Route path="redirect" element={<Navigate to='/about'/>}/>
         </Routes>
       </>
     )
