@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import {withRouter} from 'react-router-dom'
+import {Route, Routes , Navigate} from 'react-router-dom'
 // import changeColor from '../hoc/changeColor'
 import axios from 'axios';
 import {Link} from 'react-router-dom'
@@ -41,10 +41,11 @@ class Home extends Component {
             </p>
         )
         return (
+
             <div className='container'>
                 <h2>Home Page</h2>
                 {postsList} </div>
-        )
+)
     }
 }
 export default Home;
