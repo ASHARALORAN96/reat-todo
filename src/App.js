@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {Route ,Routes ,Navigate} from 'react-router-dom'
-import img from './component/assets/pokeball.png'
 import Home from './component/home';
 import About from './component/about'
 import Contact from "./component/contact";

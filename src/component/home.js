@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Route, Routes , Navigate} from 'react-router-dom'
+// import {Route, Routes , Navigate} from 'react-router-dom'
 // import changeColor from '../hoc/changeColor'
 import axios from 'axios';
 import {Link} from 'react-router-dom'
