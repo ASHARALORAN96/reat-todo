@@ -14,7 +14,7 @@ class App extends Component{
           <NavBar />
         <Routes className="App">
           <Route path='/' element={<Home/>}/>
-          <Route path=':post_id/*'  element={<Post/>}/>
+          <Route path=':post_id/*'  element={<Post />}/>
           <Route path='about' element={<About/>} />
           <Route path='contact' element={<Contact/>} />
           <Route path="404Page" element={<Page404 />}/>

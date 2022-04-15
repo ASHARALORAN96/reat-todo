@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+## React && Redux  workflow 
+React              |  Redux
+:-------------------------:|:-------------------------:
+![React workflow](assets/React-workflow-ashar.png) |   ![Redux workflow](assets/redux-workflow-ashar.png) 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
