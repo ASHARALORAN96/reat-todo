@@ -2,6 +2,7 @@ import React, { useEffect, useState} from "react";
 import axios from "axios";
 import {useParams , useNavigate } from 'react-router-dom'
 import { connect } from "react-redux";
+import { deletePost } from "../actions/deletePost";
 // let params;
 const Post = (props) => {
     //  console.log(props)
@@ -34,7 +35,7 @@ console.log('ownProps',ownProps)
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        deletePsot : (id) => {dispatch({type : 'DELETE_POST' , id:id})}
+        deletePsot : (id) => {dispatch(deletePost(id))}
     }
 }
 
